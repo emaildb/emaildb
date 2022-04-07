@@ -1,0 +1,28 @@
+{
+  "name": "email-cashe",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "prepublish": "npm run build",
+    "lint": "eslint . --ext .ts",
+    "test": "jest --config=jest.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/imap-simple": "^4.2.5",
+    "@types/jest": "^27.4.1",
+    "dotenv": "^16.0.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@wuchuhengTools/helper": "npm:@wuchuhengtools/helper@^1.0.10",
+    "@wuchuhengtools/helper": "1.0.11",
+    "imap-simple": "^5.1.0"
+  }
+}
